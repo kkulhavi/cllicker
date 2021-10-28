@@ -41,7 +41,7 @@ socket.on('active-players', (actPlayers)=>{
 
 
 //fetch(`https://${ipAddress}:${port}/api/top`)
-fetch(`https://prof-clicker.herokuapp.com/api/top`)
+fetch(`https://tranquil-bastion-33502.herokuapp.com/api/top`)
     .then(data=>data.json())
     .then(data=>data.forEach((element, index) => {                 
         tableScores.innerHTML+=`<tr><th>${index+1}</th><td>${element.name}</td> <td>${element.score}</td></tr>`       

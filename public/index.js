@@ -115,7 +115,7 @@ let myObject={}
     setTimeout(()=>{      
 
         //fetch(`https://${ipAddress}:${port}/api`,{
-        fetch(`https://prof-clicker.herokuapp.com/api`,{
+        fetch(`https://tranquil-bastion-33502.herokuapp.com/api`,{
             method: 'POST', 
             headers: {
               'Content-Type': 'application/json'
@@ -153,7 +153,7 @@ function results(){
 
     let once=true
     //fetch(`http://${ipAddress}:${port}/api/top`)
-    fetch(`https://prof-clicker.herokuapp.com/api/top`)
+    fetch(`https://tranquil-bastion-33502.herokuapp.com/api/top`)
     .then(data=>data.json())
     .then(data=>data.forEach((element, index) => {  
         //if(index===2)               

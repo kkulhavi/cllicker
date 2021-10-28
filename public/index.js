@@ -152,7 +152,8 @@ function results(){
     scoresSection.classList.remove('game')
 
     let once=true
-    fetch(`http://${ipAddress}:${port}/api/top`)
+    //fetch(`http://${ipAddress}:${port}/api/top`)
+    fetch(`https://prof-clicker.herokuapp.com/api`)
     .then(data=>data.json())
     .then(data=>data.forEach((element, index) => {  
         //if(index===2)               

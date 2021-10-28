@@ -3,9 +3,9 @@ const Sequelize=require('sequelize')
 let env=process.env.NODE_ENV || "development"
 //const config=require('./config/config.json')["production"]
 //console.log(config)
-let dbConnection = new Sequelize(process.env.JAWSDB_URL,'ur0jrgacwr5ssi2m','u8x2w8129prenyf4',{
+let dbConnection = new Sequelize(process.env.JAWSDB_URL,'eq5s24k4itiufgwg','vb3x2eeod49ci17u',{
     dialect:'mysql',
-    host: 'phtfaw4p6a970uc0.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'
+    host: 'l0ebsc9jituxzmts.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'
     });
 
 /*

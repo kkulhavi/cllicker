@@ -153,7 +153,7 @@ function results(){
 
     let once=true
     //fetch(`http://${ipAddress}:${port}/api/top`)
-    fetch(`https://prof-clicker.herokuapp.com/api`)
+    fetch(`https://prof-clicker.herokuapp.com/api/top`)
     .then(data=>data.json())
     .then(data=>data.forEach((element, index) => {  
         //if(index===2)               

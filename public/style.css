@@ -1,0 +1,18 @@
+/*disable pull-to-refresh in browser*/
+body{
+    overscroll-behavior: contain;
+}
+.game{
+    display: none;
+}
+.myImage{
+    display: table;
+    margin:0  auto;
+    
+}
+.yellowRow{
+    background:#ffc107;
+}
+
+
+

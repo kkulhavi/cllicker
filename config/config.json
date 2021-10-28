@@ -1,0 +1,14 @@
+{
+    "development":{
+        "username":"root",
+        "password":"",
+        "database":"test2",
+        "host":"localhost",
+        "dialect":"mysql"
+    },
+    "production":{
+        "use_env_variable":"JAWSDB_URL",
+        "dialect":"mysql"
+    }
+   
+}

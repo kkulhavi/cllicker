@@ -3,9 +3,9 @@ const Sequelize=require('sequelize')
 let env=process.env.NODE_ENV || "development"
 //const config=require('./config/config.json')["production"]
 //console.log(config)
-let dbConnection = new Sequelize('zzqynl7chv706qns','eq5s24k4itiufgwg','vb3x2eeod49ci17u',{
+let dbConnection = new Sequelize('heroku_45a657f0cf29b9f','bcb8dea161b467','e00a35a9',{
     dialect:'mysql',
-    host: 'l0ebsc9jituxzmts.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'
+    host: 'us-cdbr-east-04.cleardb.com'
     });
 
 /*

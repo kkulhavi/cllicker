@@ -35,12 +35,12 @@ sequelize.sync({force:true})
     })
 
 
-app.get('https://tranquil-bastion-33502.herokuapp.com/api',(req, res) => {
+app.get('/api',(req, res) => {
     Customer.findAll().then(x=>res.json(x))
 })
 
 
-app.get('https://tranquil-bastion-33502.herokuapp.com/api/top',(req,res)=>{
+app.get('/api/top',(req,res)=>{
     Customer.findAll()
     .then(x=>x.sort((a,b)=>b.score-a.score))
     .then(x=>res.json(x))
@@ -52,7 +52,7 @@ app.get('/api/azn',(req,res)=>{
     .then(x=>res.json(x))
 })
 
-app.post('https://tranquil-bastion-33502.herokuapp.com/api', (req, res) => {
+app.post('/api', (req, res) => {
 console.log(req.body)
 //console.log(req.header)
         
